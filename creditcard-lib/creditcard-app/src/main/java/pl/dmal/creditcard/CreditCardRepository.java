@@ -3,12 +3,12 @@ package pl.dmal.creditcard;
 import java.util.HashMap;
 import java.util.Map;
 
-class CreditCardRepository{
+public class CreditCardRepository{
 
     private Map<String, CreditCard> cards = new HashMap<String,CreditCard>();
 
-    public void add(CreditCard c){
-        cards.put(c.getId(), c);
+    public void add(CreditCard card){
+        cards.put(card.getId(), card);
     }
 
     public CreditCard find(String id){

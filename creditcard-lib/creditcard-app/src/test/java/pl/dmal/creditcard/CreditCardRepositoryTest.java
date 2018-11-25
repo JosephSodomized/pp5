@@ -3,14 +3,13 @@ package pl.dmal.creditcard;
 import org.junit.Assert;
 import org.junit.Test;
 
-class CreditCardRepositoryTest{
+public class CreditCardRepositoryTest{
 
     private static final String id = "my_id";
 
     @Test
     public void allowAddAndLoadCC(){
         CreditCard c = new CreditCard(id);
-
         CreditCardRepository repository = new CreditCardRepository();
 
         repository.add(c);

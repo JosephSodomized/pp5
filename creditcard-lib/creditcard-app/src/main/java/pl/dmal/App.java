@@ -1,12 +1,11 @@
-package pl.dmal;
+package pl.dmal.creditcard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
-@Component({"pl.dmal.clientsdetails"})
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
